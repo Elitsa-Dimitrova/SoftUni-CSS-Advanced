@@ -1,3 +1,43 @@
 body {
-    background: palevioletred;
+    background: rgb(243, 238, 240);
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, footer {
+    background: rgb(196, 196, 196);
+    display: flex;
+    padding: 0.5em;
+}
+
+header {
+    border-bottom: 2px solid gray;
+    
+    justify-content: flex-end;
+}
+
+header nav {
+    display: flex;
+}
+
+
+footer {    
+    border-top: 2px solid gray;
+}
+
+header button {
+    align-self: flex-end;
+    padding: 1em;
+    margin: 1em;
+    background: grey;
+    color: rgb(38, 224, 38);
+    border: none;
+}
+
+header nav button a {
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
 }
