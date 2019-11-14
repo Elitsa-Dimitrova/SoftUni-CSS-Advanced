@@ -1,0 +1,31 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+
+p {
+    padding: 1em 0em 1em 0em;
+}
+
+ul {
+    padding-left: 3em;
+}
+
+@media ( min-width: 500px ){
+    body{
+        font-size: var(--min-font-size, 14px);
+    }
+}
+
+@media ( min-width: 700px ){
+    body{
+        font-size: var(--medium-font-size, 16px);
+    }
+}
+
+@media ( min-width: 1600px ){
+    body{
+        font-size: var(--large-font-size, 18px);
+    }
+}
