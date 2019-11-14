@@ -1,0 +1,41 @@
+body {
+    color: var(--primary-color, #275468);
+    background-color: var(--white-color, #ffffff);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    border: 2px solid var(--yellow-color, #FFC701);
+    border-radius: 10px; 
+    width: 65%;
+    margin: 0 auto;
+}
+
+section ul {
+    display: flex;
+    list-style: none;
+    align-content: space-around;
+}
+
+section ul li {
+    width: 30%;
+    padding: 0.25em;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+ul li button {
+    background-color: var(--yellow-color, #FFC701);
+    color: var(--white-color, #ffffff);
+    border: none;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 5px;
+}
+
+ul li button:hover {
+    background-color: var(--primary-color, #275468);
+}
