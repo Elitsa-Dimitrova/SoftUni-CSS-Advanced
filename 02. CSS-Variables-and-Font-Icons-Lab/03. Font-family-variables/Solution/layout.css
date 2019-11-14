@@ -1,0 +1,20 @@
+body {
+    font-family: var(--all-content-use, 'PT Sans');
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--headings-use, 'PT Serif');
+}
+
+header h1{
+    text-align: center;
+}
+
+header p{
+    text-align: center;
+}
