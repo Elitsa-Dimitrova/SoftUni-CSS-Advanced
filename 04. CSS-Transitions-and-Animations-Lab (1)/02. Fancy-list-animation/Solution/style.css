@@ -1,0 +1,48 @@
+.body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    align-self: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 13em;
+}
+
+.container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container ul li {
+    padding: 0.3em 0 0.3em;
+    animation: slide 1s ease-in-out forwards;
+    transform: translateX(-3em);
+    opacity: 0;
+}
+
+.container ul :nth-child(2) {animation-delay: 0.3s;}
+.container ul :nth-child(3) {animation-delay: 0.6s;}
+.container ul :nth-child(4) {animation-delay: 0.9s;}
+.container ul :nth-child(5) {animation-delay: 1.2s;}
+.container ul :nth-child(6) {animation-delay: 1.5s;}
+.container ul :nth-child(7) {animation-delay: 1.8s;}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
