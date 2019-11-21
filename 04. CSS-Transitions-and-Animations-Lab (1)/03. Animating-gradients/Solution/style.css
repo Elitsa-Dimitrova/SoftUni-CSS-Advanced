@@ -1,0 +1,39 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container::before {
+    z-index: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+    transition: opacity 0.5s linear;
+    background-image: linear-gradient(#C5873A, #FCC785);
+}
+
+.container::after {
+    z-index: 1;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+    transition: opacity 0.5s linear;
+    background-image: linear-gradient(#8596A2, #E5EAEC);
+    
+}
+
+.container:hover::before {
+    opacity:1;
+}
+
+.container:hover::after {
+    opacity:0;
+}
