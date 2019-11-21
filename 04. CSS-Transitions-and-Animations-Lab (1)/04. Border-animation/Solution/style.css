@@ -1,0 +1,43 @@
+body {
+    background-color: #E8EAEE;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    margin-top: 200px;
+    padding: 10px;
+}
+
+.container button{
+    background-color: white;
+    padding: 1.5em;
+    border: 5px solid #203F5D;
+    margin: 0.3em;
+}
+
+.container button a{
+    text-decoration: none;
+    color: #2D2D2D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+
+@keyframes border-grow {
+    0% {
+        border: solid 5px #203F5D;
+    }
+    100% {
+        border: solid 10px #203F5D;
+    }
+}
+
+button:hover{
+    animation: border-grow 0.2s forwards;
+}
+
