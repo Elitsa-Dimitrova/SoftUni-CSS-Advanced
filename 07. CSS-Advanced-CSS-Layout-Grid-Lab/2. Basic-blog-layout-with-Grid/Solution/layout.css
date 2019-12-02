@@ -1,0 +1,21 @@
+.site {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.site > * {
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+header, footer {
+    grid-column: 1 / 4;
+}
+
+main {
+    grid-column: 1 /3;
+}

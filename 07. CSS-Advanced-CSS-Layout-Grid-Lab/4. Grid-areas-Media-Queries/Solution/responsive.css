@@ -1,0 +1,14 @@
+@media ( max-width: 1024px ) {
+    .site {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header"
+        "main"
+        "aside"
+        "footer";
+        grid-gap: 1em;
+        width: 95vw;
+        margin: 0 auto;
+    }
+}

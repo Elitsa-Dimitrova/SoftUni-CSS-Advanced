@@ -1,0 +1,33 @@
+.site {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "main main aside"
+    "footer footer footer";
+    grid-gap: 1em;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.site > * {
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+}
+
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
+}
